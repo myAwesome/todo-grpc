@@ -6,7 +6,8 @@
   "main": "src/server.js",
   "scripts": {
     "server": "node src/server.js",
-    "client": "node src/client.js"
+    "client": "node src/client.js",
+    "client:go": "go run ./cmd/go-client"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.14.0",
