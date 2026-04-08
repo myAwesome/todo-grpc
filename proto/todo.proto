@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package todo;
+option go_package = "todo-grpc/gen/todopb;todopb";
 
 service TodoService {
   rpc AddTodo(AddTodoRequest) returns (Todo);
